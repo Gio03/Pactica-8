@@ -24,7 +24,7 @@ function escribir(texto){
         writer.onwriteend = function(evt) {
             navigator.notifcation.alert("El archivo fue escrito satisfactoriamente",null,"Escribir","Aceptar");
         };
-        writer.write(text);
+        writer.write(texto);
     }
 
     function fail(error) {
